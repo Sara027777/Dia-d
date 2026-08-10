@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mulheres na Tecnologia</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <style>
+
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+            font-family:'Poppins',sans-serif;
+        }
+
+        body{
+
+            background:#f4f4f4;
+            min-height:100vh;
+
+            display:flex;
+            justify-content:center;
+            align-items:center;
+
+            padding:40px;
+
+        }
+
+        .card{
+
+            width:1200px;
+            max-width:100%;
+
+            background:white;
+
+            display:grid;
+            grid-template-columns:350px 1fr;
+
+            border-radius:20px;
+
+            overflow:hidden;
+
+            box-shadow:0 15px 40px rgba(0,0,0,.12);
+
+        }
+
+        .foto{
+
+            background:#efefef;
+
+            display:flex;
+            justify-content:center;
+            align-items:center;
+
+            padding:35px;
+
+        }
+
+        .foto img{
+
+            width:260px;
+            height:360px;
+
+            object-fit:cover;
+
+            border-radius:15px;
+
+            border:5px solid white;
+
+            box-shadow:0 10px 25px rgba(0,0,0,.15);
+
+        }
+
+        .conteudo{
+
+            padding:45px;
+
+        }
+
+        h1{
+
+            font-size:42px;
+
+            color:#222;
+
+        }
+
+        .linha{
+
+            width:100px;
+            height:4px;
+
+            background:#333;
+
+            margin:20px 0 35px;
+
+            border-radius:30px;
+
+        }
+
+        .informacoes{
+
+            display:grid;
+
+            grid-template-columns:repeat(2,1fr);
+
+            gap:18px;
+
+            margin-bottom:35px;
+
+        }
+
+        .info{
+
+            background:#fafafa;
+
+            padding:18px;
+
+            border-radius:12px;
+
+            border:1px solid #dddddd;
+
+        }
+
+        .info h3{
+
+            font-size:15px;
+
+            color:#555;
+
+            margin-bottom:8px;
+
+        }
+
+        .info p{
+
+            color:#222;
+
+            font-weight:500;
+
+        }
+
+        h2{
+
+            color:#222;
+
+            margin-bottom:18px;
+
+        }
+
+        .bio{
+
+            background:#fafafa;
+
+            border:1px solid #ddd;
+
+            border-radius:15px;
+
+            padding:25px;
+
+            line-height:1.9;
+
+            text-align:justify;
+
+            color:#555;
+
+        }
+
+        @media(max-width:900px){
+
+            .card{
+
+                grid-template-columns:1fr;
+
+            }
+
+            .informacoes{
+
+                grid-template-columns:1fr;
+
+            }
+
+            .foto img{
+
+                width:220px;
+                height:300px;
+
+            }
+
+            h1{
+
+                font-size:32px;
+
+            }
+
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+<div class="card">
+
+    <div class="foto">
+
+        <img src="imagem.jpg" alt="Foto da personalidade">
+
+    </div>
+
+    <div class="conteudo">
+
+        <h1>Edith Clarke
+</h1>
+
+        <div class="linha"></div>
+
+        <div class="informacoes">
+
+            <div class="info">
+                <h3>📅 Data de nascimento</h3>
+                <p>10 de fevereiro de 1883</p>
+            </div>
+
+            <div class="info">
+                <h3>🌎 Nacionalidade</h3>
+                <p> Condado de Howard, Maryland, EUA</p>
+            </div>
+
+            <div class="info">
+                <h3>💻 Área de atuação</h3>
+                <p> Edith Clarke foi a primeira engenheira eletricista do mundo. Mais tarde ela se tornou a primeira professora de Engenharia Elétrica na Universidade do Texas, em Austin.
+</p>
+            </div>
+
+            <div class="info">
+                <h3>🏆 Principal contribuição</h3>
+                <p>Em 1919, se tornou a primeira mulher com mestrado no Departamento de Engenharia Elétrica e Ciência da Computação. Dessa forma, depois de dois anos registrou a sua primeira patente: uma calculadora gráfica que melhorava os métodos auxiliando nos problemas de transmissão de energia elétrica.
+</p>
+            </div>
+
+        </div>
+
+        <h2>Biografia</h2>
+
+        <div class="bio">
+Edith Clarke (1883–1959) teve uma infância difícil, ficando órfã aos 12 anos, mas usou sua herança para financiar seus estudos. Graduou-se em Matemática e Astronomia no Vassar College e, em 1919, tornou-se a primeira mulher a obter um mestrado em Engenharia Elétrica pelo MIT. Apesar do feito, enfrentou imenso preconceito de gênero, sendo contratada inicialmente apenas como "calculadora humana" na General Electric. Seu maior triunfo veio com a invenção da Calculadora Clarke (patenteada em 1925), um dispositivo gráfico que resolvia equações de linhas de transmissão muito mais rápido que os métodos tradicionais. Mais tarde, tornou-se a primeira professora mulher de Engenharia Elétrica na Universidade do Texas. Seu legado revolucionou a análise de sistemas de energia e abriu portas para gerações de mulheres na tecnologia.
+
+        </div>
+
+    </div>
+
+</div>
+
+</body>
+
+</html>
+
